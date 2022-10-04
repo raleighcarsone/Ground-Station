@@ -1,11 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-10-04T16:33:35.577Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="pBGhwehMfh1jB1pqspcj" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-04T16:41:09.673Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="dgvlZdE9UHMXndNTcCgK" version="20.3.7" type="github">
   <diagram id="8sbd9tzwUORZpofNFEG0" name="Page-1">
-    <mxGraphModel dx="733" dy="716" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2309" dy="1505" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Y2it4dtmi_3I2SY21ZMH-1" value="Tracker Subsystem" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="82" y="91" width="192" height="213" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2it4dtmi_3I2SY21ZMH-2" value="Positioner Subsystem" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="332" y="93" width="192" height="213" as="geometry" />
+        </mxCell>
+        <mxCell id="Y2it4dtmi_3I2SY21ZMH-3" value="Display Subsystem" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-160" width="192" height="213" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
