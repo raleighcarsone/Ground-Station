@@ -1,1 +1,43 @@
+GitHub
+
+Friday, September 16
+Met with Rojas
+Tour of MicaPlex and labs
+Figured out hardware and radio design planning
+
+
+Tuesday, September 20
+Discussed subproject requirements
+Hardware:
+AutoCad  mount
+Motor/servo testing, load testing
+Assemble frame
+Assemble ratcheting ports (I forget the real name)
+Check power output
+
+Software:
+GUI that has 2 modes, manual and tracking 
+Include mode to manually move in all 4 directions, angle + azimuth 
+Have GUI show angle that dish is pointing at 
+Automatic tracking mode
+Should be able to select satellites manually, or pick those from a table that updates
+Table that is able to “see” satellites that are in viewable range
+
+Radio:
+Link budget (s band)
+Satellite output powers and frequency
+Software should be able to switch/have wide enough bands to accept multiple signals (4GHz +/- ??)
+Doppler frequency shift adjustments
+Close-range interference/filters
+
+
+Friday, September 23
+Started test assembly
+Gathered radio hardware information for research
+Finalized a plan for hardware design
+Tested ground station
+
+
+Tuesday, October 4
+Research WI-FI antenna assembly found in lab
 
