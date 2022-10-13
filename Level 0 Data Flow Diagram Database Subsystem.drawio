@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T17:04:04.806Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="fhWGG-LhQwNuUCHuIG2a" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-13T17:05:51.939Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="uJ6G0HKGHEUo63mkcROp" version="20.4.0" type="github">
   <diagram id="DgRbki_v6S4bZdSkkreO" name="Page-1">
     <mxGraphModel dx="1217" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -6,6 +6,14 @@
         <mxCell id="1" parent="0" />
         <mxCell id="mu_PKLuF-hdTC0U7xH1n-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mu_PKLuF-hdTC0U7xH1n-1" target="mu_PKLuF-hdTC0U7xH1n-8">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mu_PKLuF-hdTC0U7xH1n-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="mu_PKLuF-hdTC0U7xH1n-1" target="mu_PKLuF-hdTC0U7xH1n-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="480" />
+              <mxPoint x="570" y="495" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="mu_PKLuF-hdTC0U7xH1n-1" value="&lt;h1&gt;Database Control Subsystem&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="280" width="230" height="200" as="geometry" />
@@ -41,13 +49,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mu_PKLuF-hdTC0U7xH1n-8" value="GUI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mu_PKLuF-hdTC0U7xH1n-10" value="Preference Ranking (int)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="585" y="400" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mu_PKLuF-hdTC0U7xH1n-14" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="530" y="510" width="40" height="20" as="geometry" />
+        <mxCell id="mu_PKLuF-hdTC0U7xH1n-14" value="Global Sat Coordinates" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="505" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mu_PKLuF-hdTC0U7xH1n-16" value="RF Received&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="470" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
