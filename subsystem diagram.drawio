@@ -1,32 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T16:14:43.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="lPLrqKAVP4wBU9BGF7oQ" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-13T16:21:27.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="CPfDBVRFh6cyvkVZMXUJ" version="20.4.0" type="github">
   <diagram id="8sbd9tzwUORZpofNFEG0" name="Page-1">
-    <mxGraphModel dx="509" dy="969" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="1275" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Y2it4dtmi_3I2SY21ZMH-1" value="Tracker Subsystem" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="50" y="89" width="192" height="213" as="geometry" />
+        <mxCell id="Y2it4dtmi_3I2SY21ZMH-1" value="&lt;h1&gt;Tracker Subsystem&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#000099;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="12" y="-82" width="192" height="213" as="geometry" />
         </mxCell>
-        <mxCell id="Y2it4dtmi_3I2SY21ZMH-2" value="Positioner Subsystem" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="371" y="89" width="192" height="213" as="geometry" />
+        <mxCell id="Y2it4dtmi_3I2SY21ZMH-2" value="&lt;h1&gt;Positioner Subsystem&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#000099;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="14" y="221" width="192" height="213" as="geometry" />
         </mxCell>
-        <mxCell id="Y2it4dtmi_3I2SY21ZMH-3" value="Display Subsystem" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="212" y="-186" width="192" height="213" as="geometry" />
+        <mxCell id="Y2it4dtmi_3I2SY21ZMH-3" value="&lt;h1&gt;Display Subsystem&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fillColor=#000099;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="600" y="89" width="192" height="213" as="geometry" />
         </mxCell>
-        <mxCell id="upjt-rrn_FiekzLkiXwE-1" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y2it4dtmi_3I2SY21ZMH-1" target="Y2it4dtmi_3I2SY21ZMH-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="278" y="132" as="sourcePoint" />
-            <mxPoint x="328" y="82" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="295" y="142" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="upjt-rrn_FiekzLkiXwE-2" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y2it4dtmi_3I2SY21ZMH-1" target="Y2it4dtmi_3I2SY21ZMH-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="273" y="186" as="sourcePoint" />
-            <mxPoint x="323" y="136" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="upjt-rrn_FiekzLkiXwE-5" value="&lt;h1&gt;Data Collection&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000099;" vertex="1" parent="1">
+          <mxGeometry x="289" y="98" width="211" height="195" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
