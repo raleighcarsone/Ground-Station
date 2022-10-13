@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T17:15:52.726Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="--bxpeUzsnmN8TwlMyRy" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-13T17:20:01.961Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="dAWbcXs7Qxt4SBRjSLEh" version="20.4.0" type="github">
   <diagram id="DgRbki_v6S4bZdSkkreO" name="Page-1">
     <mxGraphModel dx="600" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -60,8 +60,14 @@
         <mxCell id="mu_PKLuF-hdTC0U7xH1n-16" value="RF Received&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="570" y="470" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2fLi5len7IHJut-LdACm-1" value="Tracker./Reciver&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2fLi5len7IHJut-LdACm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2fLi5len7IHJut-LdACm-1" target="mu_PKLuF-hdTC0U7xH1n-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2fLi5len7IHJut-LdACm-1" value="Satellite&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2fLi5len7IHJut-LdACm-3" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="120" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
