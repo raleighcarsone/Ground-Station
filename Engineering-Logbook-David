@@ -1,12 +1,16 @@
-GitHub
+Engineering Notebook
 
-Friday, September 16
+Sept 29
+Formulated SRS and SDD
+
+
+Sept 16
 Met with Rojas
 Tour of MicaPlex and labs
 Figured out hardware and radio design planning
 
 
-Tuesday, September 20
+Sept 20
 Discussed subproject requirements
 Hardware:
 AutoCad  mount
@@ -14,7 +18,6 @@ Motor/servo testing, load testing
 Assemble frame
 Assemble ratcheting ports (I forget the real name)
 Check power output
-
 Software:
 GUI that has 2 modes, manual and tracking 
 Include mode to manually move in all 4 directions, angle + azimuth 
@@ -22,7 +25,6 @@ Have GUI show angle that dish is pointing at
 Automatic tracking mode
 Should be able to select satellites manually, or pick those from a table that updates
 Table that is able to “see” satellites that are in viewable range
-
 Radio:
 Link budget (s band)
 Satellite output powers and frequency
@@ -31,13 +33,71 @@ Doppler frequency shift adjustments
 Close-range interference/filters
 
 
-Friday, September 23
+Sept 23
 Started test assembly
 Gathered radio hardware information for research
 Finalized a plan for hardware design
 Tested ground station
 
-
-Tuesday, October 4
+October 4
 Research WI-FI antenna assembly found in lab
+
+Oct 5
+Antenna research
+
+Oct 6
+Test plan
+
+Oct 14
+Antenna testing
+Anechoic chamber testing
+
+Oct 20
+Satellite research
+Geostationary vs. moving satellites
+
+Oct 25
+Test plan
+
+Oct 26
+Test plan
+
+Oct 27 
+Test plan
+
+Oct 28 
+Antenna testing
+Antenna research
+
+Nov 8
+SRS
+SDD
+
+Nov 11
+RF research
+GNU modeling
+
+Nov 15
+Sprint 2 presentation
+
+Nov 16
+Sprint 2 presentation
+
+Nov 17 
+Sprint 2 presentation 
+
+Nov 19
+Updated customer with project details
+
+Nov 22
+SDR research
+
+October 30
+SDD
+SRS
+
+Nov 31
+SDD SRS
+
+
 
