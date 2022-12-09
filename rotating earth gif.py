@@ -4,9 +4,10 @@ Created on Wed Nov  2 11:19:51 2022
 
 @author: 15129
 """
+import os
 
+os.environ['PROJ_LIB'] = '/Users/mb/anaconda3/envs/worklab/share/proj' 
 from gifly import gif_maker
-import datetime,matplotlib,time
 from mpl_toolkits.basemap import Basemap
 import matplotlib.pyplot as plt
 import numpy as np
@@ -17,8 +18,8 @@ fig = plt.figure(figsize=(9,6))
 
 # set the latitude angle steady, and vary the longitude. You can also reverse this to
 # create a rotating globe latitudinally as well
-lat_viewing_angle = [20.0,20.0]
-lon_viewing_angle = [-180,180]
+lat_viewing_angle = [30.0,30.0]
+lon_viewing_angle = [180,-180]
 rotation_steps = 100
 lat_vec = np.linspace(lat_viewing_angle[0],lat_viewing_angle[0],rotation_steps)
 lon_vec = np.linspace(lon_viewing_angle[0],lon_viewing_angle[1],rotation_steps)
@@ -44,8 +45,8 @@ for pp in range(0,len(lat_vec)):
 
     #show the plot, introduce a small delay to allow matplotlib to catch up
     plt.show()
-    plt.pause(0.01)
+    plt.pause(0.0000000000000000000000000000000001)
     # iterate to create the GIF animation
-    gif_maker('basemap_rotating_globe.gif','./png_dir/',gif_indx,len(lat_vec)-1,dpi=90)
+    gif_maker('basemap_rotating_globe.gif','./png_dir/',gif_indx,len(lat_vec)+1,dpi=90)
     gif_indx+=1
 
