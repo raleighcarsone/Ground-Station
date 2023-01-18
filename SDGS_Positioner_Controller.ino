@@ -11,6 +11,9 @@
 #define SWITCH_PIN 4
 #define BUTTON_PIN 5
 
+#define MINVOLTAGE_ADDRESS 0
+#define MAXVOLTAGE_ADDRESS 0x8
+
 #include <EEPROM.h>
 
 
@@ -70,27 +73,29 @@ void calibrate() {
   float voltageMin;
   float voltageMax; 
 
-  EEPROM.update(0, voltageMin*10);
-  EEPROM.update(0x8, voltageMax*10);
+  //Needs to be written
+
+  EEPROM.update(MINVOLTAGE_ADDRESS, voltageMin*10);
+  EEPROM.update(MAXVOLTAGE_ADDRESS, voltageMax*10);
    
 }
 
 float getMinVoltage() {
-  float minVoltage = EEPROM.read(0) / 10;
+  float minVoltage = EEPROM.read(MINVOLTAGE_ADDRESS) / 10;
   return minVoltage;
 }
 
 float getMaxVoltage() {
-  float maxVoltage = EEPROM.read(0x8) / 10;
+  float maxVoltage = EEPROM.read(MAXVOLTAGE_ADDRESS) / 10;
   return maxVoltage;
 }
 
 void setMinVoltage(float minVoltage) {
-  EEPROM.update(0, minVoltage);
+  EEPROM.update(MINVOLTAGE_ADDRESS, minVoltage);
 }
 
 void setMaxVoltage(float maxVoltage) {
-  EEPROM.update(0x8, maxVoltage);
+  EEPROM.update(MAXVOLTAGE_ADDRESS, maxVoltage);
 }
 
 
