@@ -1,2 +1,2 @@
 # Ground-Station
-Identify, position track, and recive signals from a satellite from the ground. 
+Identify S-Band satellites from a table, track the S-Band satellites while in view, and recive signals from the tracked S-Band satellites. 
