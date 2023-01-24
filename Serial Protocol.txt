@@ -1,0 +1,34 @@
+Ground Station Microcontroller Serial Protocol 
+
+Azimuth Left: 0b0000_0001 - 0x01
+
+Azimuth Right: 0b0000_0010 - 0x02
+
+Elevation Up: 0b0000_0011 - 0x03
+
+Elevation Down: 0b0000_0100 - 0x04
+
+Save Calibration - 0b0000_0101 - 0x05
+
+Load Calibartion -  0b0000_0110 - 0x06
+
+Calirbrate Sequence: 0b000_0111 - 0x07
+
+Azimuth Stop: 0b0000_1000 - 0x08
+
+Elevation Stop: 0b0000_1001 - 0x09
+
+All Stop: 0b0000_1010 - 0x0A
+
+Azimuth Action: 0b1100_0000 - 
+                       |--| < First half of angle 'word'. Program will wait for full byte for second half. Full angle word 
+                              should be 12 bits long. This plus 4 bit command word for a combinded 16 bits. 
+
+Elevation Action: 0b1000_0000 - 
+                         |--| < Ditto 
+
+
+
+
+
+
