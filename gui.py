@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Created on Thu Nov 17 11:23:05 2022
 
@@ -7,78 +8,76 @@ Created on Thu Nov 17 11:23:05 2022
 
 from tkinter import *
 from tkinter import ttk
-from tkinter.ttk import Notebook, Label
+from tkinter.ttk import  Label
 from subprocess import*
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-from pandas import DataFrame
-import matplotlib.pyplot as plt
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import threading
-from matplotlib.backends.backend_tkagg import (
-    FigureCanvasTkAgg, NavigationToolbar2Tk)
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+from matplotlib.backends.backend_tkagg import  NavigationToolbar2Tk
 from matplotlib.backend_bases import key_press_handler
 from matplotlib import pyplot as plt, animation
 import numpy as np
+from tkinter import filedialog
+import pandas as pd
+import globe
+import satList
+import move
+import tracking
+import pandas as pd
+from pandas import DataFrame
+
+
 
 root = Tk()
+root.wm_title("Groundstation GUI")
 
 elevation = 0
 asythmith = 0
 
 #Set Up the Different Tabs on the GUI
-tabs = ttk.Notebook(root, padding= 15)
+tabs = ttk.Notebook(root, padding= 20)
 tabs.pack(fill=BOTH, expand=TRUE)
-userControl = ttk.Frame(tabs)
-visual = ttk.Frame(tabs)
-dataRecived = ttk.Frame(tabs)
-satList = ttk.Frame(tabs)
-tabs.add(userControl, text="Manual Control")
-tabs.add(visual, text="View of the Sat")
-tabs.add(dataRecived, text="Data Recived")
-tabs.add(satList, text="Sat List")
+userControlFrame = ttk.Frame(tabs)
+visualFrame = ttk.Frame(tabs)
+dataRecivedFrame = ttk.Frame(tabs)
+satListFrame = ttk.Frame(tabs)
+tabs.add(userControlFrame, text="Manual Control")
+tabs.add(visualFrame, text="View of the Sat")
+tabs.add(dataRecivedFrame, text="Data Recived")
+tabs.add(satListFrame, text="Sat List")
+
+# Data Recieved
 
 #Manual Control Tab
 
-button1=ttk.Button(userControl, text="Up")
-button1.grid(row=1,column=2)
+button1=ttk.Button(userControlFrame, text="Up", command=move.up)
+button1.grid(row=10,column=20)
 
-button2=ttk.Button(userControl, text="Down")
-button2.grid(row=3,column=2)
+button2=ttk.Button(userControlFrame, text="Down", command=move.down)
+button2.grid(row=30,column=20)
 
-button3=ttk.Button(userControl, text="Left")
-button3.grid(row=2,column=1)
+button3=ttk.Button(userControlFrame, text="Left",command=move.left)
+button3.grid(row=20,column=10)
 
-button4=ttk.Button(userControl, text="Right")
-button4.grid(row=2,column=3)
+button4=ttk.Button(userControlFrame, text="Right", command= move.right)
+button4.grid(row=20,column=30)
 
-button5=ttk.Button(userControl, text="Auto Tracking")
-button5.grid(row=5,column=5)
+button5=ttk.Button(userControlFrame, text="Auto Tracking", command=tracking.autoTrack)
+button5.grid(row=50,column=50)
 
-userControl.mainloop()
 
 
 #View of the Sat
 
-
+isometricview = Button(visualFrame, command = globe.globe(visualFrame), text = "globe")
 
 
 #Sat List
-
-def func():
-    proc = Popen("satList.py", stdout=PIPE, shell=True)
-    proc = proc.communicate()
-    output.insert(END, proc)
+button6=ttk.Button(satListFrame ,text="Open Sat Table", command = satList.openFile(satListFrame))
+button6.grid(row=50,column=50)
 
 
-Check = Button(satList, text="Display List", command=func)
-Quit = Button(satList, text="Exit", fg="red", command=root.quit)
-output = Text(satList, width=40, height=8)
 
-Check.pack(padx=20, pady=8)
-Quit.pack(padx=20, pady=18)
-output.pack()
+
 
 
 
