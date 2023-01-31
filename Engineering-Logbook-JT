@@ -150,3 +150,20 @@ Researched how to change our antenna into circular polarization.
 Did the preliminary setup for the antenna testing.
 Redid the Product Vision and updated the Product Backlog to reflect the discussions previously held. 
 Assisted another team member with the Doppler Frequency Shift calculations.
+
+1-24-2023
+Finished doing the Doppler Frequency Shift.
+Begun designing a 90° transmission line for circular polarization.
+
+1-26-2023
+Started working on the preliminary design of the front end fitler.
+Designed and simulated the Low Pass Prototype
+
+1-30-2023
+Finished designing and simulating the Low Pass Prototype.
+Started and completed designing and simulating the Band Pass Prototype from the LPP.
+Ran anechoic chamber testing to determine the gain and pattern of our antenna.
+
+1-31-2023
+Began designing the stepped impedance conversion of the front end filter after determining the lumped element approach was not effective.
+Started working on the Sprint 4 Presentation.
