@@ -167,3 +167,22 @@ Ran anechoic chamber testing to determine the gain and pattern of our antenna.
 1-31-2023
 Began designing the stepped impedance conversion of the front end filter after determining the lumped element approach was not effective.
 Started working on the Sprint 4 Presentation.
+
+2-2-2023
+Ran design calculations for the stepped impedance conversion.
+Finished Sprint 4 Presentation.
+
+2-6-2023
+Used ADS to simulate the stepped impedance filter.
+Ran simulations to test the filter response.
+Redid calculations because the filter response did not meet our requirements.
+
+2-7-2023
+Used ADS to design and simulate the 90° transmission line for circular polorization.
+Presented Sprint 4 presentation.
+
+2-9-2023
+Finished design calculations for coupled line filter to increase effectiveness. 
+Used ADS to simulate the coupled lined filter's response.
+Used LPKF U4 to mill the coupled line filter.
+Did maintence on the LPKF U4 to try and get it opperational again.
