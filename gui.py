@@ -22,7 +22,43 @@ import globe
 import satList
 import move
 import tracking
-from pandas import DataFrame
+#define functions used in the gui
+def openFile():
+
+   filename = filedialog.askopenfilename(title="Open a File", filetype=(("xlxs files", ".*xlsx"),
+("All Files", "*.")))
+
+   if filename:
+      try:
+         filename = r"{}".format(filename)
+         df = pd.read_excel(filename)
+      except ValueError:
+         label.config(text="File could not be opened")
+      except FileNotFoundError:
+         label.config(text="File Not Found")
+
+   # Clear all the previous data in tree
+   clear_treeview()
+
+   # Add new data in Treeview widget
+   tree["column"] = list(df.columns)
+   tree["show"] = "headings"
+
+   # For Headings iterate over the columns
+   for col in tree["column"]:
+      tree.heading(col, text=col)
+
+   # Put Data in Rows
+   df_rows = df.to_numpy().tolist()
+   for row in df_rows:
+         tree.insert("", "end", values=row)
+
+   tree.pack()
+
+
+# Clear the Treeview Widget
+def clear_treeview():
+   tree.delete(*tree.get_children())
 
 
 
@@ -74,54 +110,9 @@ isometricview = Button(visualFrame, command = globe.globe(visualFrame), text = "
 tree = ttk.Treeview(satListFrame)
 tree.place(y=50)
 tree.pack(expand=tkinter.TRUE)
-def openFile():
-
-   filename = filedialog.askopenfilename(title="Open a File", filetype=(("xlxs files", ".*xlsx"),
-("All Files", "*.")))
-
-   if filename:
-      try:
-         filename = r"{}".format(filename)
-         df = pd.read_excel(filename)
-      except ValueError:
-         label.config(text="File could not be opened")
-      except FileNotFoundError:
-         label.config(text="File Not Found")
-
-   # Clear all the previous data in tree
-   clear_treeview()
-
-   # Add new data in Treeview widget
-   tree["column"] = list(df.columns)
-   tree["show"] = "headings"
-
-   # For Headings iterate over the columns
-   for col in tree["column"]:
-      tree.heading(col, text=col)
-
-   # Put Data in Rows
-   df_rows = df.to_numpy().tolist()
-   for row in df_rows:
-         tree.insert("", "end", values=row)
-
-   tree.pack()
-
-
-# Clear the Treeview Widget
-def clear_treeview():
-   tree.delete(*tree.get_children())
-
 
 
 button6=ttk.Button(satListFrame ,text="Open Sat Table", command = openFile)
 button6.place(y=0,x=0)
-
-
-
-
-
-
-
-
 
 root.mainloop()

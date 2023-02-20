@@ -11,15 +11,12 @@
 # Import the required libraries
 from tkinter import *
 from tkinter import ttk, filedialog
-import numpy
 import pandas as pd
 
+# Create an instance of tkinter frame
 
 
-tree = ttk.Treeview()
-
-def openFile(frame):
-   tree = ttk.Treeview(frame)
+def openFile():
 
    filename = filedialog.askopenfilename(title="Open a File", filetype=(("xlxs files", ".*xlsx"),
 ("All Files", "*.")))
@@ -50,6 +47,7 @@ def openFile(frame):
          tree.insert("", "end", values=row)
 
    tree.pack()
+
 
 # Clear the Treeview Widget
 def clear_treeview():

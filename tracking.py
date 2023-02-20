@@ -5,6 +5,7 @@ here is where the tracking software will live
 
 @author: 15129
 """
-
+import tracksat
 def autoTrack():
     print ('auto tracking mode is activated')
+    tracksat.tracking('ISS DEB')    
