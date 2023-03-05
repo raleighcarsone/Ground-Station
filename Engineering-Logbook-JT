@@ -186,3 +186,35 @@ Finished design calculations for coupled line filter to increase effectiveness.
 Used ADS to simulate the coupled lined filter's response.
 Used LPKF U4 to mill the coupled line filter.
 Did maintence on the LPKF U4 to try and get it opperational again.
+
+2-13-2023
+Continued to try and troubleshoot the LPKF U4.
+Contacted LPKF customer support in an attempt to get the mill running again.
+
+2-14-2023
+Implemented the maintenence suggestions provided by the customer support technition.
+Ordered the components required to fix the LPKF U4.
+
+2-16-2023
+Since we are unable to mill, my focus shifted to the GNU.
+Conducted research into proper GNU protocol and downloaded GNU Radio Companion.
+
+2-21-2023
+Conducted research into proper GNU protocol.
+Coded a preliminary prototype to familiarize myself with GNU Radio Companion.
+
+2-23-2023
+Followed the tutorials created by GNU Radio Companion posted online.
+
+2-27-2023
+Finished the tutorials created by GNU Radio Companion posted online.
+Coded a prototype GNU using the skills learned from the tutorials.
+
+2-28-2023
+Worked on the Test Plan submission for this sprint.
+
+3-2-2023
+Finalized the Test Plan and added all of the Radio team test work.
+
+3-6-2023
+Assisted with the rest of the documentation due at the end of this week.
