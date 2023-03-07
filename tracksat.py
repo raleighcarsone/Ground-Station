@@ -1,13 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Feb 13 14:36:07 2023
-This script loads a TLE file from Celestrak, which provides orbital data for many satellites. You will need to replace the satellite_name variable with the name of the satellite you want to track, and you may need to adjust the URL of the TLE file if you want to track a satellite that is not included in the default file.
-
-The script then defines the location of the ground station using latitude, longitude, and elevation, and gets the current time using the skyfield library's timescale object.
-
-Finally, the script calculates the satellite's position relative to the ground station using the difference object, which calculates the vector between the satellite and the ground station at the given time. The topocentric object then converts this vector to a topocentric coordinate system (i.e. relative to the ground station). The script prints the altitude and azimuth of the satellite at the given time.
-
-To track the satellite over time, you can put this code in a loop that updates the time and recalculates the satellite's position at regular intervals. You can also use this script as a starting point to build a more sophisticated tracking system that controls a motorized antenna to keep the satellite in view.
 
 @author: 15129
 """
