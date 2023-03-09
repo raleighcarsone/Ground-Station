@@ -99,5 +99,68 @@ SRS
 Nov 31
 SDD SRS
 
+Dec 2
+Outdoor receiver testing
+SDD, SRS reviews
+
+Dec 6
+Review of presentation
+
+Dec 8
+Presentation
+Submitting information for video
+SDR
+
+Jan 19
+Researched radio functions
+Circular polarization topics
+
+Jan 24
+Circular polarization 
+90º transmission line research
+
+Jan 30
+Anechoic chamber testing
+GNU research, Rx, manual Tx
+
+Jan 31
+Presentation prep
+
+Feb 1
+Presentation prep
+
+Feb 2
+Presentation prep
+
+Feb 6
+ADS linecalc, preparation for micro strip line with 50Ω 
+
+Feb 7
+Modeling 90º micro strip line in ADS
+
+Feb 9 
+LPKF maintenance 
+
+Feb 14
+GNU research 
+
+Feb 21 
+Test plan implementation for new chamber tests
+
+Feb 23
+GNU research
+
+Feb 27
+Researched alternative methods to LPKF milling
+Test plan
+
+Mar 2
+Finalized test plan 
+
+Mar 5
+Attempted to manually mill board
+Limited by hardware available 
+
+
 
 
