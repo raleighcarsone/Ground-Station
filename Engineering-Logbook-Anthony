@@ -98,17 +98,37 @@ In class (post hurricane catchup). SDD and SRS document individual assignments
 
 2/14/2023
 
-2:15, Meet in senior design for project updates with the professor. 
+2:15, Meet in senior design for project updates with the professor. Distrubuted roles and created a roadmap for the next week.
 
 2/21/2023
 
-2:15, Micaplex, research reciever characteristics of HackRF One. Reciever minimum strenght for 2.4 GHz (WiFi) range is -130 dBm. Cannot find sensitivity characteristic
-  of reciever.
+2:15, Micaplex, research reciever characteristics of HackRF One. Reciever minimum strenght for 2.4 GHz (WiFi) range is -130 dBm with no noise. 
+  Cannot find sensitivity characteristic of reciever. Class was cancelled. 
   
 2/23/2023
 
 2:15, In class meeting. Discussed autocad enclosure for sergio's circuit board and 3d printing. Still waiting on layout of board and optional buttons on enclosure.
 
+2/27/2023
+
+Created 3D model of the enclosure without connectors (will be added later). Created mounting solution inside waterproof box.
+
+2/28/2023
+
+Finish purchasing list for the cable, low noise amplifier, and optional power divider. 
+
+3/2/2023
+
+Research Serial Py for Carsons code to output onto an Arduino.
+
 3/6/2023
 
 2:15, Monday Micaplex meeting. Obtained better quality measurements of the positioner controller board. Finish 3D model of the board. 
+
+3/7/2023 
+
+2:15, In class meeting. Prepared to present sprint demo but was delayed to Thursday. Went over team roles and slides. 
+
+3/9/2023
+
+2:15, Presentations in class. Spoke about the commercial options for the power divider, now noise amplifier, and cable. 
