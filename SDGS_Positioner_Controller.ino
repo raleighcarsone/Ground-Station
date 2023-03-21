@@ -11,8 +11,8 @@
 #define SWITCH_PIN 4
 #define BUTTON_PIN 5
 
-#define MINVOLTAGE_ADDRESS 0
-#define MAXVOLTAGE_ADDRESS 0x8
+#define MINVOLTAGE_AZM_ADDRESS 0
+#define MAXVOLTAGE_AZM_ADDRESS 0x8
 
 #include <EEPROM.h>
 
@@ -67,6 +67,57 @@ void loop() {
   }
   */
   delay(500);
+}
+
+void commandRead(byte command) { 
+ if(command == -1) {
+  return;
+ }
+ switch(command) {
+  case 0x1:
+    azmLeft(); 
+    break;
+  case 0x2:
+    azmRight();
+    break; 
+  case 0x3:
+    elvUp();
+    break; 
+  case 0x4:
+    elvDown();
+    break; 
+  case 0x5:
+    break; 
+  case 0x6: 
+    break;
+  case 0x7:
+    break; 
+  case 0x8:
+    azmStop();
+    break; 
+  case 0x9:
+    elvStop(); 
+    break;
+  case 0xA:
+    allStop();
+    break;
+  case 0xB:
+    break; 
+  case 0xC:
+    break;
+  case 0xD:
+    break;
+  case 0xE:
+    break;
+  case 0xF:
+    break;
+ }
+ if(command >= 0x10 && command < 0x20) {
+  return;
+ }
+ if(command >= 0x20 && command < 0x30) {
+  return;
+ }
 }
 
 void calibrate() {
@@ -184,3 +235,40 @@ bool elvAction(int angle, float minVolts, float maxVolts) {
   }
     
 }
+
+void azmLeft() {
+  digitalWrite(LEFT_PIN, LOW);
+  digitalWrite(LED_PIN, HIGH);
+}  
+
+void azmRight() {
+  digitalWrite(RIGHT_PIN, LOW);
+  digitalWrite(LED_PIN, HIGH);
+}  
+
+void elvUp() {
+  digitalWrite(UP_PIN, LOW);
+  digitalWrite(LED_PIN, HIGH);
+}  
+
+void elvDown() {
+  digitalWrite(DOWN_PIN, LOW);
+  digitalWrite(LED_PIN, HIGH);
+}  
+
+void azmStop() {
+  digitalWrite(LEFT_PIN, HIGH);
+  digitalWrite(RIGHT_PIN, HIGH);
+  digitalWrite(LED_PIN, LOW);
+}  
+
+void elvStop() {
+  digitalWrite(UP_PIN, HIGH);
+  digitalWrite(DOWN_PIN, HIGH);
+  digitalWrite(LED_PIN, LOW);
+}  
+
+void allStop(){
+  azmStop();
+  elvStop();
+}  
