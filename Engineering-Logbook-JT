@@ -219,3 +219,42 @@ Finalized the Test Plan and added all of the Radio team test work.
 3-6-2023
 Assisted with the rest of the documentation due at the end of this week.
 
+3-7-2023
+Attempted to troubleshoot the LPKF under the instructions of the LPKF technition.
+
+3-9-2023
+Replaced the motor filter on the LPKF to see if that was casuing the issue.
+Tried using a sealant to fix the low pressure inside the table of the LPKF.
+
+3-20-2023
+I was able to fix the LPFK.
+Started to manufacuter the Bandpass Filter.
+
+3-21-2023
+Completed manufacturing the Coupled Line Bandpass Filter.
+Manufactured the 90° phase shift transmission line.
+
+3-23-2023
+Soldered sma connectors to the Coupled Line Bandpass Filter and to the 90° phase shift transmission line.
+Began testing the Coupled Line Bandpass Filter.
+
+3-27-2023
+Finished testing the Coupled Line Bandpass Filter, it passed spectaularly.
+There were some issues with the soldering because the filter substrate was too narrow.
+Tested the 90° phase shift transmission line, it failed misserably.
+
+3-28-2023
+Started redesign of the filter board to increase soldering effectiveness.
+
+3-30-2023
+Finalized filter redesign and added increased soldering functionality.
+
+4-3-2023
+Complete redesign of the transmission line is needed. Discussed with David the different approaches.
+
+4-4-2023
+Our options are to extend the ground plane to try and force a transmission, design manufacture and test a power divider with a phase shift, or cut a coax cable that achieves the desired phase shift.
+
+4-6-2023
+Conducted a feasablilty analysis on the above options. 
+We decided to attempt another transmission line while taking into account the length of the sma connector for a more accurate phase shift.
