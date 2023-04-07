@@ -135,7 +135,7 @@ Research Serial Py for Carsons code to output onto an Arduino.
 
 3/20/2023
 
-
+(60 mins) Post spring break meeting full of project updates and task assignments. I have to start working on the pyserial communication system along with Scavo
 
 3/21/2023
 
@@ -150,3 +150,31 @@ Research Serial Py for Carsons code to output onto an Arduino.
 
 (60 mins) Sit with team and document all progress to update the SDS and SRS. Discuss current interupts in progress with software and positioner controller.
   Sergio's positioner controller does not work correctly and may need to be recreated.
+  
+3/28/2023
+
+(45 mins) Meet in the senior design classroom to give project updates. Sergio's positioner is still unable to read position data off the rotators but is able to
+  issue commands. May have to use software to translate the satelite position in vector information for the rotator to approximate. 
+  
+  
+3/30/2023
+
+(60 mins) Meet in the micaplex to begin orgainizing work for the project. The two amplifiers we are very small and only consume 1 watt @ 5v each. This will bring the 
+  us above our minimum theshold for signal detection for our SDR. Power will be delivered to the two amplifiers over a modified ethernet cable which will be stored 
+  on the roof.
+  
+4/4/2023
+
+(60 mins) Project updates and alternative options expolored for sergio's control board. Sergio is committed to recreating his board but has not shown up for the past
+few meetings. 
+
+4/6/2023
+
+(120 mins) Orgainize lab materials and assemble components we have into the waterproof box. 
+
+
+
+
+
+
+
