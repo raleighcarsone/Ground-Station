@@ -1,3 +1,6 @@
+*****************************************************************
+Semester I:
+*****************************************************************
 Thursday, Sept. 15
 •	Preliminary research
 Tuesday, Sept. 20
@@ -30,6 +33,70 @@ Tuesday, Nov. 1
 Thursday, Nov. 3
 •	Started editing SDD according to instructor’s comments
 Friday, Nov 4.
-•	Obtained measurements for permanent ground structure
+•	Obtained measurements for permanent ground structure.
 Tuesday, Nov 8.
-•	Continued working on SDD documentation
+•	Continued working on SDD documentation.
+*****************************************************************
+Semester II:
+*****************************************************************
+Monday, Jan 23.
+•	Started to re-write previous MATLAB code for calculating Doppler Frequency Shift
+Tuesday, Jan 24.
+•	Calculated doppler frequency shift for LEO satellites within range of our Ground Station using MATLAB code.
+Thursday, Jan 26.
+•	Created and formatted User Manual document.
+•	Specked out theoretical parts list in case we needed to replace parts/create our own base structure.
+Tuesday, Jan 31.
+•	Continued working on user manual.
+•	Began working on Sprint 1 presentation.
+Thursday, February 2.
+•	Identified and started acquiring parts that needed to be replaced on the base structure.
+Monday, February 6th.
+•	Provided Dr. Rojas with our weekly update. (First of the semester)
+•	Replaced oxidized parts of the base structure.
+•	Physically tested the base structure to ensure it was stable. (Passed)
+Tuesday, February 7th.
+•	Demo 1as a group.
+Thursday, February 9th.
+•	Helped assemble antenna in order to conduct tests on all components of the ground station.
+Monday, February 13th.
+•	Sent update to Dr Rojas.
+Tuesday, February 14th.
+•	Acquired a list of and priced out items that our three teams would potentially need to purchase to speed up our project.
+Thursday, February 16th.
+•	Continued researching items to ensure minimal spending.
+Thursday, February 23rd.
+•	Helped with revising test plan.
+Monday, February 27th.
+•	Began revising SDS based on previous feedback and additions/changes to the project.
+•	Helped revise test plan.
+Tuesday, February 28th.
+•	Helped with revising the SRS based on previous feedback and additions/changes to the project.
+Thursday, March 2nd.
+•	Finished revising SDS.
+•	Started developing sprint 2 presentation with Carson.
+Monday, March 6th.
+•	Finished my slides in the sprint 2 presentation slides.
+Tuesday, March 7th.
+•	Sprint 2 Demo as a group
+Thursday, March 9th.
+•	Delivered itemized list of parts we wanted to purchase to Dr. Rojas.
+Monday, March 20th.
+•	Sent update to Dr. Rojas.
+Tuesday, March 21st.
+•	Went back to working on the user manual.
+Thursday March 23rd.
+•	Found the items that we planned on buying in the MicaPlex.
+•	Created a plan with Lee and Anthony to modify and test the waterproof electrical box.
+Monday, March 27th.
+•	Sent weekly update to Dr. Rojas.
+•	Conducted tests with lee and Anthony on the waterproof electrical box. (Passed)
+Tuesday, March 28th.
+•	Did research to learn about converting pi to serial using python in order to help Carson with software workload.
+Monday, April 3rd.
+•	Started revising user manual.
+•	Acquired uno board to test pi to serial code.
+Tuesday, April 4th.
+•	Worked with Sergio on debugging pi to serial code using uno board.
+Thursday, April 6th.
+•	Began brainstorming contingency plans with JT and Carson in case of difficulties regarding our beamwidth and the interface integration.
