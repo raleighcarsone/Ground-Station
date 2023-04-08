@@ -161,6 +161,34 @@ Mar 5
 Attempted to manually mill board
 Limited by hardware available 
 
+Mar 6
+Documentation
+
+Mar 7
+Documentation 
+
+Mar 20 
+LPKF working
+ADS filter manufacturing
+
+Mar 21
+Manufactured 90º transmission line and filter
+
+
+Mar 23
+Soldered, assembled filter with SMA connectors Tested S(1,1) and S(2,1) curves
+
+Mar 27
+Verified tests - tests failed
+Redesigned 90º transmission line due to incorrect length calculations and ground plane size
+
+Mar 30 
+Filter redesign, implementation 
+
+April 4
+90º transmission line ground plane calculations 
+Power calculations
+
 
 
 
